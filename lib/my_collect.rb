@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 def my_collect(array)
   counter = 0
   new_array = []
@@ -14,12 +9,4 @@ def my_collect(array)
   end
   new_array
 end
-
-
-
-
-
-
-
-
 
