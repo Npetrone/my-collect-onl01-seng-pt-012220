@@ -5,19 +5,21 @@
 
 
 
-
-
-
-
-
-
-
-def my_collect(collection)
-  i = 0
-  new_collection = []
-  while i < collection.length
-    new_collection << yield(collection[i])
-    i += 1
+def my_collect(array)
+  counter = 0
+  new_array = []
+  while counter < array.length
+    new_array << yield(array[counter])
+    counter += 1
   end
-  new_collection
+  new_array
 end
+
+
+
+
+
+
+
+
+
